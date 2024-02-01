@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,blue,dodgerblue,#fff);
+    color: #121212;
+    height: 100dvh;
+    padding: 20px 0;
+}
+.dark {
+    background: linear-gradient(45deg,#000,#121212,#262626,#777);
+    color: #f8f8f8;
+}
+header{
+    padding: 10px 0;
+}
+header h1{
+    text-transform: capitalize;
+    font-size: 1.8em;
+    font-family: 'Schoolbell', cursive;
+}
+.dark-mode {
+    border: none;
+    background: none;
+}
+.dark .dark-mode{
+    color: #f8f8f8;
+}
+#task-maker{
+    margin: 10px 0;
+    padding: 8px 12px;
+    width: 50%;
+}
+#task-maker::placeholder{
+    font-size: 1rem;
+}
+.list{
+    width: 62%;
+    margin: auto;
+    list-style: circle;
+}
+.new-task{
+    padding: 8px 12px;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.dark .new-task{
+    background: linear-gradient(45deg, #000, #121212, #242424);;
+}
+.new-task:has(input:checked) {
+    outline: 1px #121212 solid;
+    background: green;
+    color: #f8f8f8;
+}
+.add{
+    padding: 8px 15px;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    background: linear-gradient(45deg,#000,#232323,#262626);
+    border: 1px #777 solid;
+    border-radius: 4px;
+    color: #f8f8f8;
+}
+.check-remove{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.checkme{
+    accent-color: #fff;
+}
+.new-task button{
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+}
+.dark .new-task button{
+    color: #f8f8f8;
+}
