@@ -11,8 +11,7 @@ body{
     text-align: center;
     background: linear-gradient(45deg,blue,dodgerblue,#fff);
     color: #121212;
-    height: 100dvh;
-    padding: 20px 0;
+    padding: 80px 0;
 }
 .dark {
     background: linear-gradient(45deg,#000,#121212,#262626,#777);
@@ -42,7 +41,7 @@ header h1{
     font-size: 1rem;
 }
 .list{
-    width: 62%;
+    width: 90%;
     margin: auto;
     list-style: circle;
 }
