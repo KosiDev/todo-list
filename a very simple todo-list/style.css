@@ -35,7 +35,7 @@ header h1{
 #task-maker{
     margin: 10px 0;
     padding: 8px 12px;
-    width: 50%;
+    width: 90%;
 }
 #task-maker::placeholder{
     font-size: 1rem;
